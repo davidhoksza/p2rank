@@ -1,13 +1,10 @@
 language: groovy
 
 os:
-  - linux
   - osx
 
 jobs:
   include:
-    - os: linux
-      dist: trusty
     - os: osx
       osx_image: xcode11
 
